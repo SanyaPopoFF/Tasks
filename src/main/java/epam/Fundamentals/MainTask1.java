@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class MainTask1 {
     public static void main(String[] args) {
         System.out.print("Введите имя:");
-        Scanner vvod = new Scanner(System.in);
-        System.out.println("Привет " + vvod.nextLine());
+        Scanner enterName = new Scanner(System.in);
+        System.out.println("Привет " + enterName.nextLine());
     }
 }

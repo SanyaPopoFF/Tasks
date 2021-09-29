@@ -28,7 +28,9 @@ public class OptionalTask2 {
         }
 
         //Сортировка
-        for (int i = 0; i < matrix.length; i++) Arrays.sort(matrix[i]);
+        for (int i = 0; i < matrix.length; i++) {
+            Arrays.sort(matrix[i]);
+        }
         
         //Вывод
         for (int i = 0; i < MatrixSize; i++) {
